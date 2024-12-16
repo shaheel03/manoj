@@ -22,3 +22,12 @@ resource "azurerm_resource_group" "rg" {
     location = "west us"
   
 }
+
+resource "azurerm_resource_group" "rg1" {
+
+
+    name="jaggy-rg1"
+    location = "west us"
+  
+}
+
